@@ -14,9 +14,9 @@ proton_hash_module = Extension('proton_hash',
                                             'sha3/luffa.c',
                                             'sha3/simd.c',
                                             'sha3/shavite.c'],
-                               include_dirs=['.', './sha3'])
+                               include_dirs=['.', './sha3', './sha3/ctaes'])
 
 setup (name = 'proton_hash',
-       version = '1.3.1',
-       description = 'Binding for Proton NeoScrypt proof of work hashing.',
+       version = '2.0.1',
+       description = 'Binding for Proton proof of work hashing.',
        ext_modules = [proton_hash_module])

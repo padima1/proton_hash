@@ -1,7 +1,7 @@
-proton_hash (python) v1.3.1
+proton_hash (python) v2.0.1
 ===========================
 
-Python module for Proton's NeoScrypt hashing.
+Python module for Proton's hashing.
 
 
 Install
